@@ -1,0 +1,51 @@
+body {
+  background-color: #1f2535;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content,
+.topbar {
+  margin: 34px 10vw;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h3 {
+  font-weight: 100;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 80px;
+}
+
+.title-container {
+  width: 420px;
+}
+
+.subtitle-container {
+  width: 340px;
+}
+
+button {
+  background-color: white;
+  color: #1f2535;
+  padding: 20px 28px;
+  border-radius: 10px;
+  font-size: 1.4rem;
+}
+
+.background-images {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
